@@ -7,6 +7,15 @@ __pycache__/
 # C extensions
 *.so
 
+# Datasets
+data/sample_evaluation_data/
+data/train/
+data/validation/
+data/runs
+
+# backed models
+data/weights_0_40/
+
 # Distribution / packaging
 .Python
 env/
@@ -102,4 +111,3 @@ ENV/
 .mypy_cache/
 
 RUNS/
-
